@@ -1,4 +1,4 @@
-# This is my compilation of useful snippets
+# this is my compilation of useful snippets
 
 ### log filter
 ```bash
