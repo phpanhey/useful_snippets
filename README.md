@@ -16,3 +16,9 @@ scp user@remote_host:remote_file local_file
 # upload: local -> remote
 scp local_file user@remote_host:remote_file
 ```
+### code (test)coverage report in python
+assuming that bo_socialhub_notifyer is your module and test_bo_socialhub_notifyer are your unittests.
+```bash
+pytest -v --cov=bo_socialhub_notifyer --cov-report=html;open htmlcov/index.html
+```
+
